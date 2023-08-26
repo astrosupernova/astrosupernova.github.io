@@ -1,0 +1,84 @@
+html{
+    background-image: black;
+}
+
+body {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('figures/multicolored-nebula.jpg');
+    background-size: cover; /* Adjusted background size */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Fixed background even when scrolling */
+    /* Other properties for your layout, if needed */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Example font */
+    color: white; /* Example text color */
+}
+
+h4 {
+    text-align: left;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+
+.gjsb_pic {
+    width: 95%;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    margin-right: 35px;
+    border-radius: 35px;
+}
+
+.image_me {
+    width: 250px;
+    margin: 10px;
+}
+
+button {
+    width: 75px;
+    font-size: 15px;
+}
+
+h5 {
+    color: white;
+    text-align: left;
+}
+
+#footer-paragraph {
+    color: black; /* Apply a specific style to the paragraph */
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+  .navbar {
+    background-color: #333;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align links horizontally */
+    padding: 10px;
+}
+
+.navbar-list li {
+    margin: 0 10px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
